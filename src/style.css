@@ -1,0 +1,83 @@
+body {
+    width: 100vh;
+    height: 100vw;
+    overflow: hidden;
+    font-family: helvetica, arial, sans-serif;
+}
+
+.candidateButton {
+    color: #f9f9f9;
+    margin-left: 25px;
+    margin-top: 20px;
+    font-size: 30px;
+    position: absolute;
+}
+
+.positionHilary {
+    height: 500px;
+    float: right;
+}
+
+.positionTrump {
+    height: 500px;
+    float: left;
+}
+
+.twitterLogo {
+    height: 15px;
+    width: 15px;
+}
+
+.tweetContainer {
+    display: inline-block;
+    margin-top: 40px;
+    margin-left: 20px;
+    height: 350px;
+}
+
+.tweetHeader {
+    height: 25px;
+    color: gray;
+}
+
+.tweetDate {
+    float: right;
+}
+
+.tweetUser {
+    float: left;
+    font-weight: bold;
+}
+
+.tweetText {
+    text-align: left;
+    padding-left: 20px;
+}
+
+.tweetContainerUL {
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 0;
+}
+
+.tweetItem {
+    list-style-type: none;
+    font-size: 13px;
+    line-height: 23px;
+    background-color: white;
+    margin: 5px 5px 5px 5px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 5px;
+    max-width: 550px;
+}
+
+.candidateContainer {
+    width: 950px;
+    height: 500px;
+    background-color: black;
+    position: absolute;
+    margin-top: calc(50vh - 250px);
+    margin-left: calc(50vw - 475px);
+}
