@@ -3,7 +3,7 @@ const express = require("express");
 const Twitter = require("twit");
 
 const DIST_DIR = path.join(__dirname, "dist");
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 const app = express();
 
 const T = new Twitter({
@@ -32,6 +32,6 @@ app.get("/tweets/:politician", function(req, res) {
     });
 })
 
-app.listen(process.env.PORT || PORT, function (req) {
+app.listen(PORT, function (req) {
     console.log('app listening');
 });
