@@ -32,6 +32,6 @@ app.get("/tweets/:politician", function(req, res) {
     });
 })
 
-app.listen(PORT, function (req) {
-    console.log('app listening on port '+ PORT);
+app.listen(process.env.PORT || PORT, function (req) {
+    console.log('app listening');
 });
